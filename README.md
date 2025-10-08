@@ -13,7 +13,7 @@ File_name/
 📌 Step-by-Step Code Flow
 
 ```
-🔥 Model_Name: CNN(Architecture)
+🔥 Model_Name: CNN(Architecture)_Attention_Mechanism
 ├── 🖥️ Step 1: Setup Environment
 │   ├── 📂 Mount Google Drive
 │   └── 📚 Import Required Libraries
@@ -21,12 +21,19 @@ File_name/
 │   ├── 🧩 Create TensorFlow Datasets
 │   └── ✨ Preprocess Images for Model Input
 ├── 🏋️ Step 3: Model Training
+│   ├── ⚙️ Initialize Base Model
+│   ├── 💾 Download Pretrained Weights and Initialize Base Model
+│   ├── 🧩 Preprocessing Function
+│   ├── 🔹 Model Summary Info
+│   ├── 🔹 Feature Extraction Preview
+│   ├── ⚙️ Create Custom Classification Model
+│   ├── ⚙️ Instantiate the Model
 │   ├── ⚙️ Build and Compile Model
-│   ├── 💾 Load / Set Model Weights
 │   ├── 🔒 Model Checkpoint & Save
+│   ├── 💾 Load / Set Model Weights
 │   ├── 🏃 Train the Model
 │   └── 🧪 Test the Model
-└── 📊 Step 4: Results & Visualizations
+└── 📊 Step 4: Results, Visualizations & Grad-CAM
     ├── 🎯 Actual vs Predicted Classes
     ├── 🖼️ Actual vs Predicted Images
     ├── 📈 Training Accuracy & Loss
@@ -40,11 +47,17 @@ File_name/
     ├── ⚖️ Sensitivity & Specificity
     ├── 🔹 Jaccard Index & Dice Score
     ├── 📝 Model Evaluation Metrics
-    ├── 🌡️ Grad-CAM Visualization
     ├── 📊 PR-AUC (Precision-Recall AUC)
     ├── 📉 Log Loss / Cross-Entropy Loss
     ├── 🏆 Top-k Accuracy
-    └── 📏 G-Mean (Geometric Mean of Sensitivity & Specificity)
+    ├── 📏 G-Mean (Geometric Mean of Sensitivity & Specificity)
+    ├── 🌡️ Grad-CAM
+    ├── 🌡️ Grad-CAM++
+    ├── 🌡️ Score-CAM
+    ├── 🌡️ Faster Score-CAM
+    └── 🌡️ LIME
+    
+
 ```
 
 
