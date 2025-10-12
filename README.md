@@ -1,5 +1,5 @@
 # CNN_Architectures
-Standard pre-trained **CNN architectures** (*InceptionV3, ResNet50, EfficientNet, DenseNet-121, VGG16/19, and MobileNet*) for image classification.
+Standard pre-trained **CNN architectures** (*InceptionV3, ResNet50, EfficientNet, DenseNet-121, VGG, and MobileNet*) for image classification.
 
 📁 File Structure
 
