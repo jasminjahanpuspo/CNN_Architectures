@@ -29,6 +29,7 @@ File_name/
 │   ├── ⚙️ Create Custom Classification Model
 │   ├── ⚙️ Instantiate the Model
 │   ├── ⚙️ Build and Compile Model
+│   ├── ⚙️ Model Visualization
 │   ├── 🔒 Model Checkpoint & Save
 │   ├── 💾 Load / Set Model Weights
 │   ├── 🏃 Train the Model
